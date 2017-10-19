@@ -1,0 +1,6 @@
+framework module wsf {
+  umbrella header "wsf.h"
+
+  export *
+  module * { export * }
+}

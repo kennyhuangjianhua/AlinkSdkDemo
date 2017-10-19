@@ -1,0 +1,6 @@
+framework module SmurfsSDK {
+  umbrella header "SmurfsSDK.h"
+
+  export *
+  module * { export * }
+}

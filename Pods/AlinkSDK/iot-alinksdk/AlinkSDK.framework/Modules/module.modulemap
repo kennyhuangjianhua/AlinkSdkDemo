@@ -1,0 +1,6 @@
+framework module AlinkSDK {
+  umbrella header "AlinkSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AKLog {
+  umbrella header "AKLog.h"
+
+  export *
+  module * { export * }
+}

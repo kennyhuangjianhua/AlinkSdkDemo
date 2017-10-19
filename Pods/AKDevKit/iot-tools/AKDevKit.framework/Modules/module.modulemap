@@ -1,0 +1,6 @@
+framework module AKDevKit {
+  umbrella header "AKDevKit.h"
+
+  export *
+  module * { export * }
+}

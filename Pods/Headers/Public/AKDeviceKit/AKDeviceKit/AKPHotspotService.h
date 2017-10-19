@@ -1,0 +1,1 @@
+../../../../AKDeviceKit/iot-devicekit/AKDeviceKit.framework/Headers/AKPHotspotService.h

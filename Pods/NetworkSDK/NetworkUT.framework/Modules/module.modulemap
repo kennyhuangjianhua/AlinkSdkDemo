@@ -1,0 +1,6 @@
+framework module NetworkUT {
+  umbrella header "NetworkUT.h"
+
+  export *
+  module * { export * }
+}

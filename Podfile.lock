@@ -1,0 +1,156 @@
+PODS:
+  - AKAgooPush (1.0.0)
+  - AKDebugDashboard (0.0.1)
+  - AKDeviceKit (1.0.1):
+    - AKTBJSONModel (= 1.0.0)
+  - AKDevKit (0.0.1)
+  - AKLog (1.0.1)
+  - AKReactNative (0.41.2-debug)
+  - AKRouterKit (1.0.0)
+  - AKTBJSONModel (1.0.0)
+  - AKUserTracker (1.0.0)
+  - AKWsf (1.0.0)
+  - ALBBOpenAccountSDK (2.5.0.1):
+    - AlibabaAuthSDK
+    - BCUserTrack
+    - mtop
+    - SecurityGuardSDK
+    - SGMain
+    - SGSecurityBody
+  - AlibabaAuthSDK (1.1.0.31):
+    - BCUserTrack
+    - mtop
+    - SecurityGuardSDK
+    - SGMain
+    - SGSecurityBody
+  - AlinkSDK (1.0.1):
+    - AKDevKit
+    - AKLog
+    - AKUserTracker
+    - AKWsf
+  - BCUserTrack (5.2.0.1-appkeys):
+    - UTDID
+  - BoneKit (1.0.6):
+    - AKDeviceKit
+    - AKDevKit
+    - AKLog
+    - AKRouterKit
+    - AKUserTracker
+    - AlinkSDK
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - GHKit (2.0.3)
+  - HexColors (4.0.0)
+  - LBXScan/LBXNative (2.0)
+  - LBXScan/UI (2.0)
+  - MJRefresh (3.1.12)
+  - mtop (2.0.3):
+    - SecurityGuardSDK
+    - SGMain
+    - SGSecurityBody
+  - NetworkSDK (6.0.0.22):
+    - NetworkSDK/AliReachability (= 6.0.0.22)
+    - NetworkSDK/NetworkCore (= 6.0.0.22)
+    - NetworkSDK/NetworkPolicy (= 6.0.0.22)
+    - NetworkSDK/NetworkUnit (= 6.0.0.22)
+    - NetworkSDK/NetworkUT (= 6.0.0.22)
+  - NetworkSDK/AliReachability (6.0.0.22)
+  - NetworkSDK/NetworkCore (6.0.0.22):
+    - NetworkSDK/AliReachability
+    - tnet
+  - NetworkSDK/NetworkPolicy (6.0.0.22)
+  - NetworkSDK/NetworkUnit (6.0.0.22)
+  - NetworkSDK/NetworkUT (6.0.0.22)
+  - NSURL+QueryDictionary (1.1.0)
+  - OpenSSL (1.0.208)
+  - Reachability (3.2)
+  - SecurityGuardSDK (5.1.94)
+  - SGMain (5.1.94):
+    - SecurityGuardSDK (= 5.1.94)
+  - SGSecurityBody (5.1.29):
+    - SecurityGuardSDK (>= 5.1.94)
+    - SGMain (>= 5.1.94)
+  - SmurfsSDK (1.0.2)
+  - tnet (3.1.10)
+  - UTDID (1.0.0)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - AKAgooPush (~> 1.0.0)
+  - AKDebugDashboard (~> 0.0.1)
+  - AKReactNative (= 0.41.2-debug)
+  - ALBBOpenAccountSDK (= 2.5.0.1)
+  - AlinkSDK (~> 1.0.1)
+  - BCUserTrack (= 5.2.0.1-appkeys)
+  - BoneKit (~> 1.0.1)
+  - CocoaAsyncSocket (= 7.4.3)
+  - CocoaLumberjack (= 2.2.0)
+  - GHKit (= 2.0.3)
+  - HexColors (= 4.0.0)
+  - LBXScan/LBXNative (= 2.0)
+  - LBXScan/UI (= 2.0)
+  - MJRefresh (= 3.1.12)
+  - mtop (= 2.0.3)
+  - NetworkSDK (~> 6.0.0.22)
+  - NSURL+QueryDictionary (= 1.1.0)
+  - OpenSSL (from `LocalPods/OpenSSL.podspec`)
+  - Reachability (= 3.2)
+  - SGSecurityBody (= 5.1.29)
+  - SmurfsSDK (~> 1.0.0)
+  - ZipArchive (= 1.4.0)
+
+EXTERNAL SOURCES:
+  OpenSSL:
+    :path: LocalPods/OpenSSL.podspec
+
+SPEC CHECKSUMS:
+  AKAgooPush: aeaf84c5307354883e87da8758df06d3e1d86253
+  AKDebugDashboard: d030aff46fec84e25c5c714c0bce22f7a40b5e21
+  AKDeviceKit: 839cc4a40139b34a62b049d8ac46f61970febd05
+  AKDevKit: 3d64452cc8dda5538a564a18edb2606fdfdd2d19
+  AKLog: a3203c27dae785cdcf6c4532f2db568180442bf2
+  AKReactNative: b860bfc4b79896d96f80a34df1f94a3db35dd863
+  AKRouterKit: 05d66ddbf2fbb4ed50bb2f504010076f538c90b5
+  AKTBJSONModel: c5c14e39f4ccfd90b939b53e86d7693b367391a6
+  AKUserTracker: 87062ffb83d491fecf2421998dcbef1b923f31b9
+  AKWsf: 010866654355efc41c6f3f57565baa350f46983e
+  ALBBOpenAccountSDK: a9c71d99528464d87f9fe3bd3ff3190a4bd29d6c
+  AlibabaAuthSDK: 48fdbd517aac2155064db12c8776849f273f3242
+  AlinkSDK: cb6eafb8031d4c3ef09ca5c0d945cab5d00505b5
+  BCUserTrack: ff0ebb2943e73a90631036460c4fdd5f29a22e99
+  BoneKit: d1b4269f28ebb784d02231bd5e9a479f18473f68
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  GHKit: 2a20b51df9ce8f4355b2af2821805d369d610546
+  HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
+  LBXScan: 458f4b7a6688504a1415dc4a0f9822100e099f66
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  mtop: 1513ec32f69174bd7c95a07d393f26ef1cad3af7
+  NetworkSDK: 5da896f0fb84f4ca488e6df184886893e90c0b9f
+  NSURL+QueryDictionary: dd0a5fec689a9b4780b6fa0e0225c01ca3ea653e
+  OpenSSL: ebf7485638a550deb926b8a637b1ea2661b8fc39
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SecurityGuardSDK: 05f6d782189160f2b23b731eed5cb314ce584855
+  SGMain: 8a3008d8a709259d4868f78ae3265659e58e4416
+  SGSecurityBody: 098c981416d0f04faa605642e2da3bb556419f73
+  SmurfsSDK: 91b16ac6e2ece488ab29caf300f79c22acf7db50
+  tnet: 75a732119319e2ff8aa0a230ec3ab63ed48afdcb
+  UTDID: 05c4737c8cf5c210e86d0235570816ed00e023e8
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: 4c748cf958dec86e0f8fcfb1aebf22981bc15051
+
+COCOAPODS: 1.3.1

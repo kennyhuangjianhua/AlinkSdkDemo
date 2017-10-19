@@ -1,0 +1,6 @@
+framework module AKDeviceKit {
+  umbrella header "AKDeviceKit.h"
+
+  export *
+  module * { export * }
+}

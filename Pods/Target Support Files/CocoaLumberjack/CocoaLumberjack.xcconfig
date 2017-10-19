@@ -1,0 +1,9 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/CocoaLumberjack" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AKAgooPush" "${PODS_ROOT}/Headers/Public/AKDebugDashboard" "${PODS_ROOT}/Headers/Public/AKDevKit" "${PODS_ROOT}/Headers/Public/AKDeviceKit" "${PODS_ROOT}/Headers/Public/AKLog" "${PODS_ROOT}/Headers/Public/AKReactNative" "${PODS_ROOT}/Headers/Public/AKRouterKit" "${PODS_ROOT}/Headers/Public/AKTBJSONModel" "${PODS_ROOT}/Headers/Public/AKUserTracker" "${PODS_ROOT}/Headers/Public/AKWsf" "${PODS_ROOT}/Headers/Public/ALBBOpenAccountSDK" "${PODS_ROOT}/Headers/Public/AlibabaAuthSDK" "${PODS_ROOT}/Headers/Public/AlinkSDK" "${PODS_ROOT}/Headers/Public/BCUserTrack" "${PODS_ROOT}/Headers/Public/BoneKit" "${PODS_ROOT}/Headers/Public/CocoaAsyncSocket" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/GHKit" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/LBXScan" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/NSURL+QueryDictionary" "${PODS_ROOT}/Headers/Public/NetworkSDK" "${PODS_ROOT}/Headers/Public/OpenSSL" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/SGMain" "${PODS_ROOT}/Headers/Public/SGSecurityBody" "${PODS_ROOT}/Headers/Public/SecurityGuardSDK" "${PODS_ROOT}/Headers/Public/SmurfsSDK" "${PODS_ROOT}/Headers/Public/UTDID" "${PODS_ROOT}/Headers/Public/ZipArchive" "${PODS_ROOT}/Headers/Public/mtop" "${PODS_ROOT}/Headers/Public/tnet"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/CocoaLumberjack
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

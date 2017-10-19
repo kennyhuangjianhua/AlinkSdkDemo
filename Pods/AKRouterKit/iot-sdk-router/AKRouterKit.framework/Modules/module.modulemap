@@ -1,0 +1,6 @@
+framework module AKRouterKit {
+  umbrella header "AKRouterKit.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "OpenSSL",
+  "authors": "alink",
+  "homepage": "http://yun.taobao.com",
+  "summary": "s.name",
+  "source": {
+    "path": null
+  },
+  "version": "1.0.208",
+  "description": "OpenSSL 本地镜像，加速打包",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "vendored_libraries": "OpenSSL/**/*.a",
+  "source_files": "OpenSSL/**/*.h"
+}

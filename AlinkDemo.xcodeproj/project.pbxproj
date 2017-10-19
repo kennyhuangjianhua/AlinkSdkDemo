@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5CE4BF144C88E7BE622176 /* libPods-AlinkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BEEB114F5ECC1692A41D06 /* libPods-AlinkDemo.a */; };
+		0C2BA9861ED589A30083A46B /* WebURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2BA9781ED589A30083A46B /* WebURLHandler.m */; };
+		0C2BA9871ED589A30083A46B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2BA97A1ED589A30083A46B /* WebViewController.m */; };
+		0C2BA9891ED590920083A46B /* Router.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2BA9881ED590920083A46B /* Router.storyboard */; };
+		798FF1B21ED7C8F700D1E01C /* BLEOperateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798FF1AF1ED7C8F700D1E01C /* BLEOperateViewController.m */; };
+		798FF1B31ED7C8F700D1E01C /* BLEDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798FF1B11ED7C8F700D1E01C /* BLEDiscoverController.m */; };
+		A64168B21EDEE1ED00D2DDD4 /* DemoLoggingFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A64168B11EDEE1ED00D2DDD4 /* DemoLoggingFormatter.m */; };
+		A66F6D961F067A7D00CEB978 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F6D8F1F067A7D00CEB978 /* Global.m */; };
+		A66F6D971F067A7D00CEB978 /* LBXScanPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F6D911F067A7D00CEB978 /* LBXScanPermissions.m */; };
+		A66F6D981F067A7D00CEB978 /* LBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F6D931F067A7D00CEB978 /* LBXScanViewController.m */; };
+		A66F6D991F067A7D00CEB978 /* StyleDIY.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F6D951F067A7D00CEB978 /* StyleDIY.m */; };
+		A66F6DA91F067AA700CEB978 /* ALBBOpenAccountCountryCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6D9B1F067AA700CEB978 /* ALBBOpenAccountCountryCodeViewController.xib */; };
+		A66F6DAA1F067AA700CEB978 /* ALBBOpenAccountFindPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6D9C1F067AA700CEB978 /* ALBBOpenAccountFindPwdViewController.xib */; };
+		A66F6DAB1F067AA700CEB978 /* ALBBOpenAccountLoginHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6D9D1F067AA700CEB978 /* ALBBOpenAccountLoginHistoryTableViewCell.xib */; };
+		A66F6DAC1F067AA700CEB978 /* ALBBOpenAccountLoginLogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6D9E1F067AA700CEB978 /* ALBBOpenAccountLoginLogTableViewCell.xib */; };
+		A66F6DAD1F067AA700CEB978 /* ALBBOpenAccountLoginLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6D9F1F067AA700CEB978 /* ALBBOpenAccountLoginLogViewController.xib */; };
+		A66F6DAE1F067AA700CEB978 /* ALBBOpenAccountLoginNoPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6DA01F067AA700CEB978 /* ALBBOpenAccountLoginNoPwdViewController.xib */; };
+		A66F6DAF1F067AA700CEB978 /* ALBBOpenAccountLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6DA11F067AA700CEB978 /* ALBBOpenAccountLoginViewController.xib */; };
+		A66F6DB01F067AA700CEB978 /* ALBBOpenAccountOneStepRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6DA21F067AA700CEB978 /* ALBBOpenAccountOneStepRegisterVC.xib */; };
+		A66F6DB11F067AA700CEB978 /* ALBBOpenAccountRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6DA31F067AA700CEB978 /* ALBBOpenAccountRegisterViewController.xib */; };
+		A66F6DB21F067AA700CEB978 /* ALBBOpenAccountResetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6DA41F067AA700CEB978 /* ALBBOpenAccountResetPwdViewController.xib */; };
+		A66F6DB31F067AA700CEB978 /* ALBBOpenAccountSetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6DA51F067AA700CEB978 /* ALBBOpenAccountSetPwdViewController.xib */; };
+		A66F6DB41F067AA700CEB978 /* ALBBOpenAccountUpdateMobileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66F6DA61F067AA700CEB978 /* ALBBOpenAccountUpdateMobileViewController.xib */; };
+		A66F6DB51F067AA700CEB978 /* CustomLoginMoudle.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F6DA81F067AA700CEB978 /* CustomLoginMoudle.m */; };
+		F5ABD5671ED8185D008E63B5 /* alismart.png in Resources */ = {isa = PBXBuildFile; fileRef = F5ABD5661ED8185D008E63B5 /* alismart.png */; };
+		F5E21F651E13A3F50022F948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E21F641E13A3F50022F948 /* main.m */; };
+		F5E21F681E13A3F50022F948 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E21F671E13A3F50022F948 /* AppDelegate.m */; };
+		F5E21F6B1E13A3F50022F948 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E21F6A1E13A3F50022F948 /* ViewController.m */; };
+		F5E21F6E1E13A3F50022F948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E21F6C1E13A3F50022F948 /* Main.storyboard */; };
+		F5E21F701E13A3F50022F948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E21F6F1E13A3F50022F948 /* Assets.xcassets */; };
+		F5E21F731E13A3F50022F948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E21F711E13A3F50022F948 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C2BA9771ED589A30083A46B /* WebURLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebURLHandler.h; sourceTree = "<group>"; };
+		0C2BA9781ED589A30083A46B /* WebURLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebURLHandler.m; sourceTree = "<group>"; };
+		0C2BA9791ED589A30083A46B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		0C2BA97A1ED589A30083A46B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		0C2BA9881ED590920083A46B /* Router.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Router.storyboard; sourceTree = "<group>"; };
+		798FF1AE1ED7C8F700D1E01C /* BLEOperateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEOperateViewController.h; sourceTree = "<group>"; };
+		798FF1AF1ED7C8F700D1E01C /* BLEOperateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEOperateViewController.m; sourceTree = "<group>"; };
+		798FF1B01ED7C8F700D1E01C /* BLEDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDiscoverController.h; sourceTree = "<group>"; };
+		798FF1B11ED7C8F700D1E01C /* BLEDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDiscoverController.m; sourceTree = "<group>"; };
+		8D0DC4DFB285C85FBC257572 /* Pods-AlinkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlinkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlinkDemo/Pods-AlinkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB6492E0B547A43CC2CEF5C /* Pods-AlinkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlinkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlinkDemo/Pods-AlinkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A64168B01EDEE1ED00D2DDD4 /* DemoLoggingFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoLoggingFormatter.h; sourceTree = "<group>"; };
+		A64168B11EDEE1ED00D2DDD4 /* DemoLoggingFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoLoggingFormatter.m; sourceTree = "<group>"; };
+		A66F6D8E1F067A7D00CEB978 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = scan/Global.h; sourceTree = "<group>"; };
+		A66F6D8F1F067A7D00CEB978 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Global.m; path = scan/Global.m; sourceTree = "<group>"; };
+		A66F6D901F067A7D00CEB978 /* LBXScanPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBXScanPermissions.h; path = scan/LBXScanPermissions.h; sourceTree = "<group>"; };
+		A66F6D911F067A7D00CEB978 /* LBXScanPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBXScanPermissions.m; path = scan/LBXScanPermissions.m; sourceTree = "<group>"; };
+		A66F6D921F067A7D00CEB978 /* LBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBXScanViewController.h; path = scan/LBXScanViewController.h; sourceTree = "<group>"; };
+		A66F6D931F067A7D00CEB978 /* LBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBXScanViewController.m; path = scan/LBXScanViewController.m; sourceTree = "<group>"; };
+		A66F6D941F067A7D00CEB978 /* StyleDIY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StyleDIY.h; path = scan/StyleDIY.h; sourceTree = "<group>"; };
+		A66F6D951F067A7D00CEB978 /* StyleDIY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StyleDIY.m; path = scan/StyleDIY.m; sourceTree = "<group>"; };
+		A66F6D9B1F067AA700CEB978 /* ALBBOpenAccountCountryCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountCountryCodeViewController.xib; path = CustomOpenAccount/ALBBOpenAccountCountryCodeViewController.xib; sourceTree = "<group>"; };
+		A66F6D9C1F067AA700CEB978 /* ALBBOpenAccountFindPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountFindPwdViewController.xib; path = CustomOpenAccount/ALBBOpenAccountFindPwdViewController.xib; sourceTree = "<group>"; };
+		A66F6D9D1F067AA700CEB978 /* ALBBOpenAccountLoginHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountLoginHistoryTableViewCell.xib; path = CustomOpenAccount/ALBBOpenAccountLoginHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		A66F6D9E1F067AA700CEB978 /* ALBBOpenAccountLoginLogTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountLoginLogTableViewCell.xib; path = CustomOpenAccount/ALBBOpenAccountLoginLogTableViewCell.xib; sourceTree = "<group>"; };
+		A66F6D9F1F067AA700CEB978 /* ALBBOpenAccountLoginLogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountLoginLogViewController.xib; path = CustomOpenAccount/ALBBOpenAccountLoginLogViewController.xib; sourceTree = "<group>"; };
+		A66F6DA01F067AA700CEB978 /* ALBBOpenAccountLoginNoPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountLoginNoPwdViewController.xib; path = CustomOpenAccount/ALBBOpenAccountLoginNoPwdViewController.xib; sourceTree = "<group>"; };
+		A66F6DA11F067AA700CEB978 /* ALBBOpenAccountLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountLoginViewController.xib; path = CustomOpenAccount/ALBBOpenAccountLoginViewController.xib; sourceTree = "<group>"; };
+		A66F6DA21F067AA700CEB978 /* ALBBOpenAccountOneStepRegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountOneStepRegisterVC.xib; path = CustomOpenAccount/ALBBOpenAccountOneStepRegisterVC.xib; sourceTree = "<group>"; };
+		A66F6DA31F067AA700CEB978 /* ALBBOpenAccountRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountRegisterViewController.xib; path = CustomOpenAccount/ALBBOpenAccountRegisterViewController.xib; sourceTree = "<group>"; };
+		A66F6DA41F067AA700CEB978 /* ALBBOpenAccountResetPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountResetPwdViewController.xib; path = CustomOpenAccount/ALBBOpenAccountResetPwdViewController.xib; sourceTree = "<group>"; };
+		A66F6DA51F067AA700CEB978 /* ALBBOpenAccountSetPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountSetPwdViewController.xib; path = CustomOpenAccount/ALBBOpenAccountSetPwdViewController.xib; sourceTree = "<group>"; };
+		A66F6DA61F067AA700CEB978 /* ALBBOpenAccountUpdateMobileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountUpdateMobileViewController.xib; path = CustomOpenAccount/ALBBOpenAccountUpdateMobileViewController.xib; sourceTree = "<group>"; };
+		A66F6DA71F067AA700CEB978 /* CustomLoginMoudle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomLoginMoudle.h; path = CustomOpenAccount/CustomLoginMoudle.h; sourceTree = "<group>"; };
+		A66F6DA81F067AA700CEB978 /* CustomLoginMoudle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomLoginMoudle.m; path = CustomOpenAccount/CustomLoginMoudle.m; sourceTree = "<group>"; };
+		CE064EF81F98B5A5000DF5F5 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		F3BEEB114F5ECC1692A41D06 /* libPods-AlinkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlinkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5ABD5661ED8185D008E63B5 /* alismart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alismart.png; sourceTree = "<group>"; };
+		F5E21F601E13A3F50022F948 /* AlinkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlinkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E21F641E13A3F50022F948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5E21F661E13A3F50022F948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5E21F671E13A3F50022F948 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5E21F691E13A3F50022F948 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5E21F6A1E13A3F50022F948 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5E21F6D1E13A3F50022F948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E21F6F1E13A3F50022F948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E21F721E13A3F50022F948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E21F741E13A3F50022F948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E21F7A1E13A6D40022F948 /* AlinkDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlinkDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E21F5D1E13A3F50022F948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5CE4BF144C88E7BE622176 /* libPods-AlinkDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2BA95A1ED589A30083A46B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0C2BA9761ED589A30083A46B /* Web */,
+				0C2BA9881ED590920083A46B /* Router.storyboard */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0C2BA9761ED589A30083A46B /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				0C2BA9771ED589A30083A46B /* WebURLHandler.h */,
+				0C2BA9781ED589A30083A46B /* WebURLHandler.m */,
+				0C2BA9791ED589A30083A46B /* WebViewController.h */,
+				0C2BA97A1ED589A30083A46B /* WebViewController.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		798FF1AD1ED7C8F700D1E01C /* bluetooth_sample */ = {
+			isa = PBXGroup;
+			children = (
+				798FF1AE1ED7C8F700D1E01C /* BLEOperateViewController.h */,
+				798FF1AF1ED7C8F700D1E01C /* BLEOperateViewController.m */,
+				798FF1B01ED7C8F700D1E01C /* BLEDiscoverController.h */,
+				798FF1B11ED7C8F700D1E01C /* BLEDiscoverController.m */,
+			);
+			path = bluetooth_sample;
+			sourceTree = "<group>";
+		};
+		88C91525081F068DCD8DEBD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D0DC4DFB285C85FBC257572 /* Pods-AlinkDemo.debug.xcconfig */,
+				9CB6492E0B547A43CC2CEF5C /* Pods-AlinkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A66F6D9A1F067A8900CEB978 /* CustomOpenAccount */ = {
+			isa = PBXGroup;
+			children = (
+				A66F6D9B1F067AA700CEB978 /* ALBBOpenAccountCountryCodeViewController.xib */,
+				A66F6D9C1F067AA700CEB978 /* ALBBOpenAccountFindPwdViewController.xib */,
+				A66F6D9D1F067AA700CEB978 /* ALBBOpenAccountLoginHistoryTableViewCell.xib */,
+				A66F6D9E1F067AA700CEB978 /* ALBBOpenAccountLoginLogTableViewCell.xib */,
+				A66F6D9F1F067AA700CEB978 /* ALBBOpenAccountLoginLogViewController.xib */,
+				A66F6DA01F067AA700CEB978 /* ALBBOpenAccountLoginNoPwdViewController.xib */,
+				A66F6DA11F067AA700CEB978 /* ALBBOpenAccountLoginViewController.xib */,
+				A66F6DA21F067AA700CEB978 /* ALBBOpenAccountOneStepRegisterVC.xib */,
+				A66F6DA31F067AA700CEB978 /* ALBBOpenAccountRegisterViewController.xib */,
+				A66F6DA41F067AA700CEB978 /* ALBBOpenAccountResetPwdViewController.xib */,
+				A66F6DA51F067AA700CEB978 /* ALBBOpenAccountSetPwdViewController.xib */,
+				A66F6DA61F067AA700CEB978 /* ALBBOpenAccountUpdateMobileViewController.xib */,
+				A66F6DA71F067AA700CEB978 /* CustomLoginMoudle.h */,
+				A66F6DA81F067AA700CEB978 /* CustomLoginMoudle.m */,
+			);
+			name = CustomOpenAccount;
+			sourceTree = "<group>";
+		};
+		CA8B11CD9B286A230219057A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEEB114F5ECC1692A41D06 /* libPods-AlinkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5ABD5551ED57929008E63B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5ABD5661ED8185D008E63B5 /* alismart.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5ABD55F1ED594F1008E63B5 /* scan */ = {
+			isa = PBXGroup;
+			children = (
+				A66F6D8E1F067A7D00CEB978 /* Global.h */,
+				A66F6D8F1F067A7D00CEB978 /* Global.m */,
+				A66F6D901F067A7D00CEB978 /* LBXScanPermissions.h */,
+				A66F6D911F067A7D00CEB978 /* LBXScanPermissions.m */,
+				A66F6D921F067A7D00CEB978 /* LBXScanViewController.h */,
+				A66F6D931F067A7D00CEB978 /* LBXScanViewController.m */,
+				A66F6D941F067A7D00CEB978 /* StyleDIY.h */,
+				A66F6D951F067A7D00CEB978 /* StyleDIY.m */,
+			);
+			name = scan;
+			sourceTree = "<group>";
+		};
+		F5E21F571E13A3F50022F948 = {
+			isa = PBXGroup;
+			children = (
+				CE064EF81F98B5A5000DF5F5 /* yw_1222.jpg */,
+				F5E21F621E13A3F50022F948 /* AlinkDemo */,
+				F5E21F611E13A3F50022F948 /* Products */,
+				88C91525081F068DCD8DEBD6 /* Pods */,
+				CA8B11CD9B286A230219057A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E21F611E13A3F50022F948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E21F601E13A3F50022F948 /* AlinkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E21F621E13A3F50022F948 /* AlinkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A66F6D9A1F067A8900CEB978 /* CustomOpenAccount */,
+				798FF1AD1ED7C8F700D1E01C /* bluetooth_sample */,
+				0C2BA95A1ED589A30083A46B /* Router */,
+				F5ABD55F1ED594F1008E63B5 /* scan */,
+				F5E21F7A1E13A6D40022F948 /* AlinkDemo.entitlements */,
+				F5E21F661E13A3F50022F948 /* AppDelegate.h */,
+				F5E21F671E13A3F50022F948 /* AppDelegate.m */,
+				F5E21F691E13A3F50022F948 /* ViewController.h */,
+				F5E21F6A1E13A3F50022F948 /* ViewController.m */,
+				A64168B01EDEE1ED00D2DDD4 /* DemoLoggingFormatter.h */,
+				A64168B11EDEE1ED00D2DDD4 /* DemoLoggingFormatter.m */,
+				F5E21F6C1E13A3F50022F948 /* Main.storyboard */,
+				F5E21F6F1E13A3F50022F948 /* Assets.xcassets */,
+				F5E21F711E13A3F50022F948 /* LaunchScreen.storyboard */,
+				F5E21F741E13A3F50022F948 /* Info.plist */,
+				F5ABD5551ED57929008E63B5 /* Resources */,
+				F5E21F631E13A3F50022F948 /* Supporting Files */,
+			);
+			path = AlinkDemo;
+			sourceTree = "<group>";
+		};
+		F5E21F631E13A3F50022F948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E21F641E13A3F50022F948 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E21F5F1E13A3F50022F948 /* AlinkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E21F771E13A3F50022F948 /* Build configuration list for PBXNativeTarget "AlinkDemo" */;
+			buildPhases = (
+				88BA91BB9A627A0753425E9A /* [CP] Check Pods Manifest.lock */,
+				F5E21F5C1E13A3F50022F948 /* Sources */,
+				F5E21F5D1E13A3F50022F948 /* Frameworks */,
+				F5E21F5E1E13A3F50022F948 /* Resources */,
+				779D1F60D5A62D3A14035E3B /* [CP] Embed Pods Frameworks */,
+				BB5A2E1B6FDEDB566F11EB81 /* [CP] Copy Pods Resources */,
+				B97769C66ED290DB90054705 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlinkDemo;
+			productName = AlinkDemo;
+			productReference = F5E21F601E13A3F50022F948 /* AlinkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E21F581E13A3F50022F948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = aliyun;
+				TargetAttributes = {
+					F5E21F5F1E13A3F50022F948 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3BHCEXZ9M9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F5E21F5B1E13A3F50022F948 /* Build configuration list for PBXProject "AlinkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5E21F571E13A3F50022F948;
+			productRefGroup = F5E21F611E13A3F50022F948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E21F5F1E13A3F50022F948 /* AlinkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E21F5E1E13A3F50022F948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F6DAB1F067AA700CEB978 /* ALBBOpenAccountLoginHistoryTableViewCell.xib in Resources */,
+				A66F6DB31F067AA700CEB978 /* ALBBOpenAccountSetPwdViewController.xib in Resources */,
+				A66F6DB11F067AA700CEB978 /* ALBBOpenAccountRegisterViewController.xib in Resources */,
+				A66F6DB41F067AA700CEB978 /* ALBBOpenAccountUpdateMobileViewController.xib in Resources */,
+				0C2BA9891ED590920083A46B /* Router.storyboard in Resources */,
+				A66F6DA91F067AA700CEB978 /* ALBBOpenAccountCountryCodeViewController.xib in Resources */,
+				A66F6DAE1F067AA700CEB978 /* ALBBOpenAccountLoginNoPwdViewController.xib in Resources */,
+				F5E21F731E13A3F50022F948 /* LaunchScreen.storyboard in Resources */,
+				A66F6DB21F067AA700CEB978 /* ALBBOpenAccountResetPwdViewController.xib in Resources */,
+				A66F6DAA1F067AA700CEB978 /* ALBBOpenAccountFindPwdViewController.xib in Resources */,
+				A66F6DAD1F067AA700CEB978 /* ALBBOpenAccountLoginLogViewController.xib in Resources */,
+				F5ABD5671ED8185D008E63B5 /* alismart.png in Resources */,
+				F5E21F701E13A3F50022F948 /* Assets.xcassets in Resources */,
+				F5E21F6E1E13A3F50022F948 /* Main.storyboard in Resources */,
+				A66F6DAF1F067AA700CEB978 /* ALBBOpenAccountLoginViewController.xib in Resources */,
+				A66F6DAC1F067AA700CEB978 /* ALBBOpenAccountLoginLogTableViewCell.xib in Resources */,
+				A66F6DB01F067AA700CEB978 /* ALBBOpenAccountOneStepRegisterVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		779D1F60D5A62D3A14035E3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlinkDemo/Pods-AlinkDemo-frameworks.sh",
+				"${PODS_ROOT}/SmurfsSDK/iot-ble/SmurfsSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SmurfsSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlinkDemo/Pods-AlinkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88BA91BB9A627A0753425E9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlinkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B97769C66ED290DB90054705 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlinkDemo/Pods-AlinkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5A2E1B6FDEDB566F11EB81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlinkDemo/Pods-AlinkDemo-resources.sh",
+				"${PODS_ROOT}/AKDebugDashboard/iot-debug/AKDebugDashboard.framework/AKDebugDashboard.bundle",
+				"${PODS_ROOT}/ALBBOpenAccountSDK/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/ALBBOpenAccountUIFont.ttf",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/alink_iconfont.ttf",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/BoneErrorView.nib",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/AKRNLib.bundle/slider_circle@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/AKRNLib.bundle/slider_max@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/AKRNLib.bundle/slider_min@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/back.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/back@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/back@3x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/button_click@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/button_disable@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/button_normal@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/qq@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/taobao@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/weibo@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle/weixin@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/bone_loading@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/bone_loading@3x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/MJRefresh.bundle/arrow@2x.png",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/AKRNLib.bundle",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/ALBBOpenAccount.bundle",
+				"${PODS_ROOT}/BoneKit/iot-bonekit/BoneKit.framework/MJRefresh.bundle",
+				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlinkDemo/Pods-AlinkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E21F5C1E13A3F50022F948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F6D991F067A7D00CEB978 /* StyleDIY.m in Sources */,
+				A66F6DB51F067AA700CEB978 /* CustomLoginMoudle.m in Sources */,
+				F5E21F6B1E13A3F50022F948 /* ViewController.m in Sources */,
+				798FF1B21ED7C8F700D1E01C /* BLEOperateViewController.m in Sources */,
+				A66F6D971F067A7D00CEB978 /* LBXScanPermissions.m in Sources */,
+				798FF1B31ED7C8F700D1E01C /* BLEDiscoverController.m in Sources */,
+				A64168B21EDEE1ED00D2DDD4 /* DemoLoggingFormatter.m in Sources */,
+				F5E21F681E13A3F50022F948 /* AppDelegate.m in Sources */,
+				0C2BA9861ED589A30083A46B /* WebURLHandler.m in Sources */,
+				A66F6D961F067A7D00CEB978 /* Global.m in Sources */,
+				A66F6D981F067A7D00CEB978 /* LBXScanViewController.m in Sources */,
+				F5E21F651E13A3F50022F948 /* main.m in Sources */,
+				0C2BA9871ED589A30083A46B /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5E21F6C1E13A3F50022F948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E21F6D1E13A3F50022F948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E21F711E13A3F50022F948 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E21F721E13A3F50022F948 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E21F751E13A3F50022F948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5E21F761E13A3F50022F948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E21F781E13A3F50022F948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0DC4DFB285C85FBC257572 /* Pods-AlinkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlinkDemo/AlinkDemo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BHCEXZ9M9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AlinkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdk.ailiyundemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		F5E21F791E13A3F50022F948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB6492E0B547A43CC2CEF5C /* Pods-AlinkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlinkDemo/AlinkDemo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BHCEXZ9M9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AlinkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdk.ailiyundemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E21F5B1E13A3F50022F948 /* Build configuration list for PBXProject "AlinkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E21F751E13A3F50022F948 /* Debug */,
+				F5E21F761E13A3F50022F948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E21F771E13A3F50022F948 /* Build configuration list for PBXNativeTarget "AlinkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E21F781E13A3F50022F948 /* Debug */,
+				F5E21F791E13A3F50022F948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E21F581E13A3F50022F948 /* Project object */;
+}

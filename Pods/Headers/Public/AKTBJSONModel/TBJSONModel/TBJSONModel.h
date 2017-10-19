@@ -1,0 +1,1 @@
+../../../../AKTBJSONModel/iot-sdk-jsonmodel/TBJSONModel.framework/Headers/TBJSONModel.h

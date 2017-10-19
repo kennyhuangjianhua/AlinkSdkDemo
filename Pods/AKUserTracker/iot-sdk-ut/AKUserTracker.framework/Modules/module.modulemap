@@ -1,0 +1,6 @@
+framework module AKUserTracker {
+  umbrella header "AKUserTracker.h"
+
+  export *
+  module * { export * }
+}

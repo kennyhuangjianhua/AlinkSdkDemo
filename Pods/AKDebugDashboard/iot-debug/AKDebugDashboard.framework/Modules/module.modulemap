@@ -1,0 +1,6 @@
+framework module AKDebugDashboard {
+  umbrella header "AKDebugDashboard.h"
+
+  export *
+  module * { export * }
+}

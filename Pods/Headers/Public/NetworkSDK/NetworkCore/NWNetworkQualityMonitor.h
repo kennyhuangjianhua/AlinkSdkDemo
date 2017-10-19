@@ -1,0 +1,1 @@
+../../../../NetworkSDK/NetworkCore.framework/Headers/NWNetworkQualityMonitor.h

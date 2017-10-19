@@ -1,0 +1,1 @@
+../../../../AlinkSDK/iot-alinksdk/AlinkSDK.framework/Headers/AlinkEnvConfig.h
