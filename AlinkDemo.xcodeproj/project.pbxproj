@@ -38,6 +38,7 @@
 		F5E21F6E1E13A3F50022F948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E21F6C1E13A3F50022F948 /* Main.storyboard */; };
 		F5E21F701E13A3F50022F948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E21F6F1E13A3F50022F948 /* Assets.xcassets */; };
 		F5E21F731E13A3F50022F948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E21F711E13A3F50022F948 /* LaunchScreen.storyboard */; };
+		F5E21F7C1E13A6EC0022F948 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5E21F7B1E13A6EC0022F948 /* yw_1222.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,7 +77,6 @@
 		A66F6DA61F067AA700CEB978 /* ALBBOpenAccountUpdateMobileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ALBBOpenAccountUpdateMobileViewController.xib; path = CustomOpenAccount/ALBBOpenAccountUpdateMobileViewController.xib; sourceTree = "<group>"; };
 		A66F6DA71F067AA700CEB978 /* CustomLoginMoudle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomLoginMoudle.h; path = CustomOpenAccount/CustomLoginMoudle.h; sourceTree = "<group>"; };
 		A66F6DA81F067AA700CEB978 /* CustomLoginMoudle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomLoginMoudle.m; path = CustomOpenAccount/CustomLoginMoudle.m; sourceTree = "<group>"; };
-		CE064EF81F98B5A5000DF5F5 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
 		F3BEEB114F5ECC1692A41D06 /* libPods-AlinkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlinkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5ABD5661ED8185D008E63B5 /* alismart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alismart.png; sourceTree = "<group>"; };
 		F5E21F601E13A3F50022F948 /* AlinkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlinkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +90,7 @@
 		F5E21F721E13A3F50022F948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E21F741E13A3F50022F948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5E21F7A1E13A6D40022F948 /* AlinkDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlinkDemo.entitlements; sourceTree = "<group>"; };
+		F5E21F7B1E13A6EC0022F948 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,7 +200,7 @@
 		F5E21F571E13A3F50022F948 = {
 			isa = PBXGroup;
 			children = (
-				CE064EF81F98B5A5000DF5F5 /* yw_1222.jpg */,
+				F5E21F7B1E13A6EC0022F948 /* yw_1222.jpg */,
 				F5E21F621E13A3F50022F948 /* AlinkDemo */,
 				F5E21F611E13A3F50022F948 /* Products */,
 				88C91525081F068DCD8DEBD6 /* Pods */,
@@ -318,6 +319,7 @@
 				A66F6DAB1F067AA700CEB978 /* ALBBOpenAccountLoginHistoryTableViewCell.xib in Resources */,
 				A66F6DB31F067AA700CEB978 /* ALBBOpenAccountSetPwdViewController.xib in Resources */,
 				A66F6DB11F067AA700CEB978 /* ALBBOpenAccountRegisterViewController.xib in Resources */,
+				F5E21F7C1E13A6EC0022F948 /* yw_1222.jpg in Resources */,
 				A66F6DB41F067AA700CEB978 /* ALBBOpenAccountUpdateMobileViewController.xib in Resources */,
 				0C2BA9891ED590920083A46B /* Router.storyboard in Resources */,
 				A66F6DA91F067AA700CEB978 /* ALBBOpenAccountCountryCodeViewController.xib in Resources */,
@@ -517,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -558,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -571,6 +573,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AlinkDemo/AlinkDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3BHCEXZ9M9;
@@ -591,6 +594,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AlinkDemo/AlinkDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3BHCEXZ9M9;
